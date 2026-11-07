@@ -1,0 +1,8 @@
+{
+  "loginSuccessMessage": "Welcome to the Secure Area. When you are done click logout below.",
+  "successfulBasicAuthMessage": "Congratulations! You must have the proper credentials.",
+  "successfulAlertMessage" : "You successfully clicked an alert",
+  "fileForUpload": "tests/resources/test.txt",
+  "downloadFileName": "hello.txt",
+  "username": "Roberto"
+}

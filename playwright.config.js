@@ -43,9 +43,8 @@ export default defineConfig({
   workers: isCI ? 1 : undefined,
 
   reporter: [
-    ['list'],
-    ['html', { open: 'never' }],
-    ...(isCI ? [['junit', { outputFile: 'results.xml' }]] : [])
+    ['line'],
+    ['allure-playwright', { resultsDir: 'allure-results' }]
   ],
 
   use: {
